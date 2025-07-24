@@ -1,26 +1,10 @@
-# 🧠 IT-JIM Task 1 - DL
+# Defect Detection on AI Images
 
 A PyTorch-based project for training and testing a binary classifier on image data. Includes CLI support for training and inference.
 
 ---
 
-## 📁 Project Structure
-
-```
-it-jim_ak1_2025/
-├── data/
-│   ├── train/          # Training images
-│   └── test/           # Test images
-├── models/             # Trained models (saved here)
-├── src/                # Source code modules
-├── main.py             # CLI for training/testing
-├── requirements.txt    # Dependencies
-├── README.md           # This file
-```
-
----
-
-## ⚖️ Setup Instructions
+## Setup Instructions
 
 0. **Clone the repository**
    ```bash
@@ -28,7 +12,7 @@ it-jim_ak1_2025/
    cd it-jim_ak1_2025
    ```
 
-1. **Create a virtual environment (optional but recommended)**
+1. **Create a virtual environment (optional)**
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
@@ -87,17 +71,10 @@ python main.py test --data-dir ./data/trainee_dataset/test --output results.csv
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 - Micro F1 score on test set: **0.9600**
-- Artifact-only accuracy: **75.00%**
 
 ---
 
-## 🚧 Notes
+## Notes
 - The best model is saved to `models/best_model.pth`
-
-
----
-
-## 🚀 Author
-Made with ❤️ by Arseny K
