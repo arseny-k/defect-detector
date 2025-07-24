@@ -32,7 +32,7 @@ A PyTorch-based project for training and testing a binary classifier on image da
 
 ---
 
-## ▶️ How to Use
+## How to Use
 
 ### Train the Model
 ```bash
