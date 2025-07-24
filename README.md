@@ -2,7 +2,6 @@
 
 A PyTorch-based project for training and testing a binary classifier on image data. Includes CLI support for training and inference.
 
----
 
 ## Setup Instructions
 
@@ -30,7 +29,6 @@ A PyTorch-based project for training and testing a binary classifier on image da
 
    Image filenames should follow the format: `image_<id>_<label>.png`
 
----
 
 ## How to Use
 
@@ -69,12 +67,12 @@ Example:
 python main.py test --data-dir ./data/trainee_dataset/test --output results.csv
 ```
 
----
+
 
 ## Evaluation Metrics
 - Micro F1 score on test set: **0.9600**
 
----
+
 
 ## Notes
 - The best model is saved to `models/best_model.pth`
