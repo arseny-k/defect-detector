@@ -7,7 +7,7 @@ A PyTorch-based project for training and testing a binary classifier on image da
 
 0. **Clone the repository**
    ```bash
-   git clone https://github.com/arseny-k/it-jim_ak1_2025
+   git clone https://github.com/arseny-k/defect-detector
    cd it-jim_ak1_2025
    ```
 
